@@ -356,10 +356,38 @@ img{
 
 @media screen and (max-width: 640px) {
     #profileimg {
-        width:100%
+        width:100%;
     }
     aside {
-        float: left
+        float: none;
+        height: 148px;
+    }
+    .header-name-styling{
+        float:none;
+        text-align: center;
+    }
+    .link-spanner{
+        position:relative;
+        display: inline-block;
+        width:25%;
+        margin: 0;
+
+    }
+    .link-container{
+        float:none;
+        width:100%;
+        text-align: center;
+    }
+    #about{
+        right: auto; 
+    }
+    
+    #portfolio{
+        right: auto;
+    }
+    
+    #contact{
+        right: auto;
     }
 
 }
