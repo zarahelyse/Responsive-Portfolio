@@ -354,41 +354,143 @@ img{
 }
 */
 
-@media screen and (max-width: 640px) {
-    #profileimg {
-        width:100%;
+@media screen and (max-width: 980px){
+
+    .header-content-container {
+        width: 85%;
+    }
+    .link-container {
+        width: 11%;
+    }
+    section{
+        width: 85%; 
+    }
+    article{
+        width: 62%; 
+        box-sizing: border-box; 
     }
     aside {
-        float: none;
-        height: 148px;
+        width: 33%; 
+        box-sizing: border-box;
     }
-    .header-name-styling{
-        float:none;
-        text-align: center;
+ 
+    #about{
+        right: 200%;
     }
-    .link-spanner{
-        position:relative;
-        display: inline-block;
-        width:25%;
-        margin: 0;
-
+    #portfolio{
+        right: 100%;
+    }
+    #contact{
+        right: 0;
+    }
+ 
+    #about-active{
+        right: 200%; 
+    }
+    #portfolio-active{
+        right: 100%; 
+    }
+    #contact-active{
+        right: 0; 
+    }
+    
+ 
+ @media screen and (max-width: 768px){
+    .link-container {
+        width: 11%;
+    }
+    section{
+        width: 85%; 
+    }
+    .header-content-container {
+        width: 85%;
+    } 
+    article{
+        width: 100%; 
+        box-sizing: border-box;
+    }
+    aside {
+        width: 100%; 
+        float: left; 
+        margin-bottom: 40px; 
+        box-sizing: border-box;
+    }
+ 
+     #about{
+        right: 200%;
+    }
+    #portfolio{
+        right: 100%;
+    }
+    #contact{
+        right: 0;
+    }
+ 
+    #about-active{
+        right: 200%; 
+    }
+    #portfolio-active{
+        right: 100%; 
+    }
+    #contact-active{
+        right: 0; 
+    }
+ }
+ 
+ 
+ @media screen and (max-width: 640px){
+    header{
+        position: static;
+    }
+    .header-content-container {
+        width: 100%;
+    }
+    .header-name-styling {
+        width: 100%; 
+        height: 60%; 
+        margin: auto; 
+        box-sizing: border-box; 
+        line-height: 42pt
+    }
+    nav{
+        float: left; 
+        height: 40%;
     }
     .link-container{
-        float:none;
-        width:100%;
-        text-align: center;
+        width: 33.33%;  
+        margin: auto; 
+        box-sizing: border-box;
+    }
+    .link-spanner{
+        line-height: 300%;
     }
     #about{
-        right: auto; 
+        left: 0;
     }
-    
     #portfolio{
-        right: auto;
+        left: 100%;
     }
-    
     #contact{
-        right: auto;
+        left: 200%;
     }
-
-}
+ 
+    #about-active{
+        left: 0; 
+    }
+    #portfolio-active{
+        left: 100%; 
+    }
+    #contact-active{
+        left: 200%; 
+    }
+    #profile-img{
+        float: none;
+        margin: auto; 
+    }
+ }
+ 
+ Message Input
+ 
+ 
+ Message @Josh Parker
  
